@@ -1,0 +1,34 @@
+# GoodMC
+#
+# English
+#
+# This configuration is developed on GoodMC.ru
+# GoodMC is a non-commercial game server project.
+#
+# Get new versions faster, as well as incredible dungeons, additional content, settings for UltimateTimber and SmoothTimber, installation support, and more: http://mjpg.ru/buyoriginalrwg
+#
+# Have a nice game!
+#
+# Русский
+#
+# Эта конфигурация пренадлежит GoodMC.ru
+# GoodMC - некоммерческий проект игровых серверов.
+#
+# Получите новые версии быстрее, а так женевероятные данжи, дополнительный контент, настройки для UltimateTimber и SmoothTimber, поддержку по установке и многое другое: http://mjpg.ru/buyoriginalrwg
+#
+# Приятной игры!
+#
+caves:
+  type: 6
+  enabled: true
+  spawnrate: 1000
+  cave-3:
+    frequenzy: 1
+    octaves: 1
+    amplitude: 1
+  cave-4:
+    frequenzy: 2
+    max-noise: 256
+  cave-5:
+    radius: 3
+    iterations: 2

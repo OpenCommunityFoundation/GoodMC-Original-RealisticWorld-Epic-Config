@@ -1,0 +1,57 @@
+# GoodMC
+#
+# English
+#
+# This configuration is developed on GoodMC.ru
+# GoodMC is a non-commercial game server project.
+#
+# Get new versions faster, as well as incredible dungeons, additional content, settings for UltimateTimber and SmoothTimber, installation support, and more: http://mjpg.ru/buyoriginalrwg
+#
+# Have a nice game!
+#
+# Русский
+#
+# Эта конфигурация пренадлежит GoodMC.ru
+# GoodMC - некоммерческий проект игровых серверов.
+#
+# Получите новые версии быстрее, а так женевероятные данжи, дополнительный контент, настройки для UltimateTimber и SmoothTimber, поддержку по установке и многое другое: http://mjpg.ru/buyoriginalrwg
+#
+# Приятной игры!
+#
+Pyramid1:
+- PYRAMID
+Mansion:
+- MANSION
+JungleTemple1:
+- JUNGLE_TEMPLE_1
+JungleTemple2:
+- JUNGLE_TEMPLE_2
+VillageHouse1:
+- VILLAGE_HOUSE_1_A
+- VILLAGE_HOUSE_1_B
+- VILLAGE_HOUSE_1_C
+- VILLAGE_HOUSE_1_D
+- VILLAGE_DEFAULT_HOUSE_1_EAST
+- VILLAGE_DEFAULT_HOUSE_1_WEST
+- VILLAGE_DEFAULT_HOUSE_1_SOUTH
+- VILLAGE_DEFAULT_HOUSE_1_NORTH
+DesertTemple1:
+- DESERT_TEMPLE_1
+Stronghold:
+- STRONGHOLD
+Dungeon1:
+- DUNGEON
+JungleTemple:
+- JUNGLE_TEMPLE_1
+- JUNGLE_TEMPLE_2
+VillageBackery1:
+- VILLAGE_BACKERY_A
+- VILLAGE_BACKERY_B
+- VILLAGE_BACKERY_C
+- VILLAGE_BACKERY_D
+- VILLAGE_DEFAULT_BACKERY_EAST
+- VILLAGE_DEFAULT_BACKERY_WEST
+- VILLAGE_DEFAULT_BACKERY_SOUTH
+- VILLAGE_DEFAULT_BACKERY_NORTH
+Shipwreck:
+- SHIPWRECK
