@@ -1,6 +1,6 @@
 # GoodMC RWG Configuration
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)]()
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/Envel-Nikita-Gutsenkov/GoodMC-Original-RealisticWorld-Epic-Config)
 
 # English
 
