@@ -1,28 +1,10 @@
-# GoodMC
-#
-# English
-#
-# This configuration is developed on GoodMC.ru
-# GoodMC is a non-commercial game server project.
-#
-# Get new versions faster, as well as incredible dungeons, additional content, settings for UltimateTimber and SmoothTimber, installation support, and more: http://mjpg.ru/buyoriginalrwg
-#
-# Have a nice game!
-#
-# Русский
-#
-# Эта конфигурация пренадлежит GoodMC.ru
-# GoodMC - некоммерческий проект игровых серверов.
-#
-# Получите новые версии быстрее, а так женевероятные данжи, дополнительный контент, настройки для UltimateTimber и SmoothTimber, поддержку по установке и многое другое: http://mjpg.ru/buyoriginalrwg
-#
-# Приятной игры!
-#
 caves:
   water_caves:
-    enabled: true
+    enabled: false
   types:
-  - 7
+  - 2
+  lava:
+    block: minecraft:lava[level=0]
   cave:
     '1':
       lava:

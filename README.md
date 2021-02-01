@@ -1,4 +1,4 @@
-# GoodMC RWG Configuration
+﻿# GoodMC RWG Configuration
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://github.com/Envel-Nikita-Gutsenkov/GoodMC-Original-RealisticWorld-Epic-Config)
 
@@ -28,7 +28,7 @@
 |  |  |
 | ------ | ------ |
 | Game version | 1.16.5 |
-| RWG version | 4.25.8 |
+| RWG version | 4.25.11 |
 | Configuration version | free 2.7 ALPHA |
 | Server | 4+GB RAM, 4+ cores |
 | World settings | "large biomes" parameter |
