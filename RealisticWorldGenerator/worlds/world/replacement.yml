@@ -1,0 +1,13 @@
+oakFences:
+  enabled: true
+  data:
+    oakFence:
+      exact: false
+      value: minecraft:oak_wood
+      key: minecraft:oak_fence
+  schematics:
+  - OAK_TREE_1
+  - OAK_TREE_2
+  - OAK_TREE_3
+  - OAK_TREE_4
+  - OAK_TREE_5
