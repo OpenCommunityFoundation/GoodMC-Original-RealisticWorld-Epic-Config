@@ -6,15 +6,54 @@ strongholds:
   enabled: true
   height:
     min: 15
+customization:
+  mob_spawning:
+    enabled: false
+  one_biome:
+    biome: JUNGLE
+    enabled: false
+  tree_spawning:
+    allowed_blocks:
+    - GRASS_BLOCK
+    - DIRT
+    - COARSE_DIRT
+    - PODZOL
+    - SAND
+    - terracotta
+    - snow_block
+    - packed_ice
+    - ice
+  ocean:
+    block: minecraft:water[level=0]
+  bedrock:
+    flat: false
+  biomes:
+    replaced:
+      BEACH: BEACH
+  flat_spawn:
+    radius: 40
+    fading: 20
+    enabled: false
+    height: 70
+  decay:
+    radius:
+      X: 12
+      y: 12
+      Z: 12
+  sugarcane:
+    spawn: true
+    chance: 7
 biomes:
   replaced:
     BEACH: BEACH
   default_minecraft: false
 decay:
+  blockall: false
   radius:
     X: 7
     y: 8
     Z: 7
+  enabled: true
 mineshaft:
   default-weight: 1.0
   default:

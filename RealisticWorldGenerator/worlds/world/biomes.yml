@@ -1,23 +1,3 @@
-# GoodMC
-#
-# English
-#
-# This configuration is developed on GoodMC.ru
-# GoodMC is a non-commercial game server project.
-#
-# Get new versions faster, as well as incredible dungeons, additional content, settings for UltimateTimber and SmoothTimber, installation support, and more: http://mjpg.ru/buyoriginalrwg
-#
-# Have a nice game!
-#
-# Русский
-#
-# Эта конфигурация пренадлежит GoodMC.ru
-# GoodMC - некоммерческий проект игровых серверов.
-#
-# Получите новые версии быстрее, а так женевероятные данжи, дополнительный контент, настройки для UltimateTimber и SmoothTimber, поддержку по установке и многое другое: http://mjpg.ru/buyoriginalrwg
-#
-# Приятной игры!
-#
 cold-ocean:
   overlay:
     chance: 12
@@ -40,7 +20,7 @@ cold-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -48,7 +28,7 @@ cold-ocean:
       min: 0.0
       max: 156.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -56,7 +36,7 @@ cold-ocean:
       min: 0.0
       max: 55000.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -115,13 +95,13 @@ cold-ocean:
     - minecraft:andesite;10
 forest:
   overlay:
-    chance: 4
+    chance: 3
     blocks:
     - minecraft:poppy;10
     - minecraft:dandelion;5
     - minecraft:grass;85
     - minecraft:fern;55
-    - minecraft:oak_leaves[distance=7,persistent=true];18
+    - minecraft:oak_leaves[distance=7,persistent=true];110
     - minecraft:oxeye_daisy;5
     - minecraft:azure_bluet;5
     - minecraft:cornflower;3
@@ -131,7 +111,7 @@ forest:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -139,7 +119,7 @@ forest:
       min: 0.0
       max: 50.0
       weight: 1.0
-    structures:
+    list:
     - gmc_st_newbuild1::1
     - gmc_st_newbuild2::1
     - gmc_st_newbuild3::1
@@ -149,7 +129,7 @@ forest:
       min: 0.0
       max: 80.0
       weight: 1.0
-    trees:
+    list:
     - gmc_newdarkoak_1::4
     - gmc_newdarkoak_2::4
     - gmc_newdarkoak_3_1::4
@@ -213,7 +193,7 @@ cold-taiga-hills:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -221,7 +201,7 @@ cold-taiga-hills:
       min: 0.0
       max: 0.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -229,7 +209,7 @@ cold-taiga-hills:
       min: 0.0
       max: 2333.0
       weight: 1.0
-    trees:
+    list:
     - gmc_snowspruce::1
     - gmc_snowspruce_0::1
     - gmc_snowspruce_1::1
@@ -307,7 +287,7 @@ warm-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -315,7 +295,7 @@ warm-ocean:
       min: 0.0
       max: 156.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -323,7 +303,7 @@ warm-ocean:
       min: 0.0
       max: 55000.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -389,7 +369,7 @@ desert-mountains:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -397,7 +377,7 @@ desert-mountains:
       min: 0.0
       max: 9000.0
       weight: 1.0
-    structures:
+    list:
     - gmc_DESERT_TEMPLE_1_0::20
     - gmc_DESERT_TEMPLE_2::5
     - DESERT_RESERVOIR::60
@@ -415,7 +395,7 @@ desert-mountains:
       min: 0.0
       max: 80000.0
       weight: 1.0
-    trees:
+    list:
     - gmc_cactus_3::22000
     - gmc_cactus_2::24000
     - gmc_cactus_1::22000
@@ -465,7 +445,7 @@ extreme-hills:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -473,7 +453,7 @@ extreme-hills:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -481,7 +461,7 @@ extreme-hills:
       min: 0.0
       max: 120.0
       weight: 1.0
-    trees:
+    list:
     - gmc_dark_oak::8000
     - gmc_dark_oak_0::8000
     - gmc_dark_oak_1::8000
@@ -540,7 +520,7 @@ cold-taiga-mountains:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -548,7 +528,7 @@ cold-taiga-mountains:
       min: 0.0
       max: 0.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -556,7 +536,7 @@ cold-taiga-mountains:
       min: 0.0
       max: 2333.0
       weight: 1.0
-    trees:
+    list:
     - gmc_snowspruce::1
     - gmc_snowspruce_0::1
     - gmc_snowspruce_1::1
@@ -599,23 +579,30 @@ deep-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 80.0
+      max: 120.0
       weight: 1.0
-    structures:
-    - UNDERWATER_TEMPLE_1::8
+    list:
+    - BT_BLUESHIP:1
+    - BT_BLUESHIP2:1
+    - BT_WATERRUIN1:1
+    - BT_WATERRUIN2:1
+    - BT_WATERRUIN3:1
+    - BT_WATERRUIN4:1
+    - BT_WATERRUIN5:1
+    - UNDERWATER_TEMPLE_1::1
   trees:
     chance:
       random: 1.0E7
       min: 0.0
       max: 10.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -681,7 +668,7 @@ ice-plains:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -689,7 +676,7 @@ ice-plains:
       min: 0.0
       max: 6.0
       weight: 1.0
-    structures:
+    list:
     - gmc_iglu_3::1.0
   trees:
     chance:
@@ -697,7 +684,7 @@ ice-plains:
       min: 0.0
       max: 1333.0
       weight: 1.0
-    trees:
+    list:
     - gmc_icetree::1.0
     - gmc_icetree_0::1.0
     - gmc_icetree_1::1.0
@@ -775,7 +762,7 @@ ice-plains:
     - minecraft:packed_ice;2
 swampland:
   overlay:
-    chance: 2
+    chance: 1
     blocks:
     - minecraft:blue_orchid;6
     - minecraft:grass;120
@@ -783,22 +770,22 @@ swampland:
     - minecraft:red_mushroom;14
     - minecraft:fern;60
     - minecraft:tall_grass[half=lower];40
-    - minecraft:dark_oak_leaves[distance=7,persistent=true];415
+    - minecraft:dark_oak_leaves[distance=7,persistent=true];615
   entities:
     chance:
       random: 0.0
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 280000.0
+      max: 290000.0
       weight: 1.0
-    structures:
+    list:
     - gmc_waterforswamp_8::6
     - gmc_waterforswamp_2_3::2
   trees:
@@ -807,7 +794,7 @@ swampland:
       min: 0.0
       max: 17500.0
       weight: 1.0
-    trees:
+    list:
     - SWAMP_TREE_3::4000
     - SWAMP_TREE_2::4000
     - SWAMP_TREE_4::4000
@@ -830,7 +817,7 @@ swampland:
     '0': [
       ]
     '1':
-    - minecraft:dark_oak_leaves;50
+    - minecraft:dark_oak_leaves;80
     - minecraft:coarse_dirt;15
     - minecraft:mycelium;10
     - minecraft:grass_block[snowy=false];118
@@ -884,7 +871,7 @@ savanna-hills:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -892,7 +879,7 @@ savanna-hills:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -900,7 +887,7 @@ savanna-hills:
       min: 0.0
       max: 7000.0
       weight: 1.0
-    trees:
+    list:
     - gmc_savanna::2666
     - gmc_savanna_0::2666
     - gmc_savanna_1::2666
@@ -950,15 +937,15 @@ dark-oak-forest:
     blocks:
     - minecraft:grass;80
     - minecraft:fern;20
-    - minecraft:brown_mushroom;2
-    - minecraft:red_mushroom;2
+    - minecraft:large_fern;400
+    - minecraft:oak_leaves[distance=7,persistent=true];30
   entities:
     chance:
       random: 16.0
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -966,24 +953,43 @@ dark-oak-forest:
       min: 0.0
       max: 6.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
       random: 10000.0
       min: 0.0
-      max: 110.0
+      max: 1100.0
       weight: 1.0
-    trees:
-    - gmc_dark_oak::4000
-    - gmc_dark_oak_0::4000
-    - gmc_dark_oak_1::4000
-    - gmc_dark_oak_2::4000
-    - gmc_dark_oak_3::4000
-    - gmc_dark_oak_4::4000
-    - OAK_TREE_4::4000
-    - OAK_TREE_2::4000
-    - OAK_TREE_1::4000
+    list:
+    - gmc_fl_1::500
+    - gmc_fl_2::500
+    - gmc_fl_3_1::500
+    - gmc_fl_4::500
+    - gmc_fl_5::500
+    - gmc_fl_6::500
+    - gmc_flowers_1::10
+    - gmc_flowers_2::10
+    - gmc_flowers_3::10
+    - gmc_flowers_4::10
+    - gmc_flowers_5_1::1
+    - gmc_flowers_6::1
+    - gmc_flowers_7_1::1
+    - gmc_flowers_8::1
+    - gmc_flowers_9_1::1
+    - gmc_flowers_10_1::1
+    - gmc_flowers_11::1
+    - gmc_flowers_12_1::20
+    - gmc_flowers_14_2::20
+    - gmc_flowers_15_1::20
+    - gmc_flowers_16_1::20
+    - gmc_flowers_17::20
+    - gmc_stone_n_7::1
+    - gmc_stone_n_5::1
+    - gmc_stone_n_4::1
+    - gmc_stone_n_3::1
+    - gmc_stone_n_2::1
+    - gmc_stone_n_1::1
   water:
     top-layer:
       blocks: [
@@ -996,8 +1002,10 @@ dark-oak-forest:
     '0': [
       ]
     '1':
-    - minecraft:coarse_dirt;15
-    - minecraft:podzol[snowy=false];50
+    - minecraft:cyan_terracotta;20
+    - minecraft:gray_terracotta;20
+    - minecraft:brown_terracotta;20
+    - minecraft:green_terracotta;20
     - minecraft:grass_block[snowy=false];120
     '2':
     - minecraft:stone;30
@@ -1038,7 +1046,7 @@ bamboo-jungle-hills:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -1046,7 +1054,7 @@ bamboo-jungle-hills:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures:
+    list:
     - gmc_JUNGLE_TEMPLE_1::20
     - gmc_JUNGLE_TEMPLE_2_2::20
   trees:
@@ -1055,7 +1063,7 @@ bamboo-jungle-hills:
       min: 0.0
       max: 400.0
       weight: 1.0
-    trees:
+    list:
     - gmc_jungle_v2::4076
     - gmc_jungle_1_v2::4076
     - BAMBOO_1::4000.0
@@ -1120,21 +1128,21 @@ bamboo-jungle-hills:
     - minecraft:granite;25
 birch-forest-hills:
   overlay:
-    chance: 6
+    chance: 5
     blocks:
     - minecraft:poppy;10
     - minecraft:dandelion;5
     - minecraft:grass;60
     - minecraft:fern;50
     - minecraft:lily_of_the_valley;5
-    - minecraft:birch_leaves[distance=7,persistent=true];100
+    - minecraft:birch_leaves[distance=7,persistent=true];120
   entities:
     chance:
       random: 0.0
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -1142,7 +1150,7 @@ birch-forest-hills:
       min: 0.0
       max: 50.0
       weight: 1.0
-    structures:
+    list:
     - gmc_st_newbuild1::1
     - gmc_st_newbuild2::1
     - gmc_st_newbuild3::1
@@ -1150,9 +1158,9 @@ birch-forest-hills:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 49000.0
+      max: 52000.0
       weight: 1.0
-    trees:
+    list:
     - gmc_BIRCH_TREE_5::800
     - gmc_BIRCH_TREE_4::2666
     - gmc_BIRCH_TREE_3::2666
@@ -1209,14 +1217,14 @@ birch-forest:
     - minecraft:grass;60
     - minecraft:fern;50
     - minecraft:lily_of_the_valley;5
-    - minecraft:birch_leaves[distance=7,persistent=true];100
+    - minecraft:birch_leaves[distance=7,persistent=true];120
   entities:
     chance:
       random: 0.0
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -1224,7 +1232,7 @@ birch-forest:
       min: 0.0
       max: 50.0
       weight: 1.0
-    structures:
+    list:
     - gmc_st_newbuild1::1
     - gmc_st_newbuild2::1
     - gmc_st_newbuild3::1
@@ -1232,9 +1240,9 @@ birch-forest:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 51000.0
+      max: 52000.0
       weight: 1.0
-    trees:
+    list:
     - gmc_BIRCH_TREE_5::800
     - gmc_BIRCH_TREE_4::2666
     - gmc_BIRCH_TREE_3::2666
@@ -1295,7 +1303,7 @@ cold-taiga:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -1303,7 +1311,7 @@ cold-taiga:
       min: 0.0
       max: 0.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -1311,7 +1319,7 @@ cold-taiga:
       min: 0.0
       max: 2333.0
       weight: 1.0
-    trees:
+    list:
     - gmc_snowspruce::1
     - gmc_snowspruce_0::1
     - gmc_snowspruce_1::1
@@ -1372,23 +1380,23 @@ savanna:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 600.0
+      max: 30.0
       weight: 1.0
-    structures: [
-      ]
+    list:
+    - gmc_st_savanna::1
   trees:
     chance:
       random: 1.0E7
       min: 0.0
       max: 7000.0
       weight: 1.0
-    trees:
+    list:
     - gmc_savanna::2666
     - gmc_savanna_0::2666
     - gmc_savanna_1::2666
@@ -1436,19 +1444,19 @@ plains:
   overlay:
     chance: 3
     blocks:
-    - minecraft:orange_tulip;50
-    - minecraft:pink_tulip;50
-    - minecraft:red_tulip;50
-    - minecraft:white_tulip;50
+    - minecraft:orange_tulip;55
+    - minecraft:pink_tulip;55
+    - minecraft:red_tulip;55
+    - minecraft:white_tulip;55
     - minecraft:grass;1000
     - minecraft:fern;500
     - minecraft:melon;2
-    - minecraft:sunflower[half=lower];50
-    - minecraft:tall_grass[half=lower];100
-    - minecraft:rose_bush[half=lower];10
-    - minecraft:large_fern[half=lower];80
-    - minecraft:lilac[half=lower];4
-    - minecraft:wheat;50
+    - minecraft:sunflower[half=lower];60
+    - minecraft:tall_grass[half=lower];110
+    - minecraft:rose_bush[half=lower];20
+    - minecraft:large_fern[half=lower];90
+    - minecraft:lilac[half=lower];5
+    - minecraft:wheat;70
     - minecraft:peony[half=lower];4
   entities:
     chance:
@@ -1456,7 +1464,7 @@ plains:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -1464,18 +1472,19 @@ plains:
       min: 0.0
       max: 800.0
       weight: 1.0
-    structures:
+    list:
     - gmc_bee_1::500
     - gmc_st_newbuild1::1
     - gmc_st_newbuild2::1
     - gmc_st_newbuild3::1
+    - gmc_st_n_1::1
   trees:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 1000.0
+      max: 1300.0
       weight: 1.0
-    trees:
+    list:
     - gmc_plauntbush_1_0::1
     - gmc_plauntbush_2::1
     - gmc_plauntbush_3::1
@@ -1529,28 +1538,33 @@ death-land:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 50.0
+      max: 70.0
       weight: 1.0
-    structures:
+    list:
     - gmc_st_newbuild1::1
     - gmc_st_newbuild2::1
     - gmc_st_newbuild3::1
+    - gmc_st_n_1::1
+    - BT_CAMP::1
+    - BT_BALLOON1::1
+    - BT_BALLOON2::1
+    - BT_BALLOON3::1
   trees:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 20000.0
+      max: 7000.0
       weight: 1.0
-    trees:
-    - gmc_newoaktree_2_forgen_1::4000
-    - gmc_newoaktree_1::4000
-    - gmc_newoaktree_3::4000
+    list:
+    - gmc_newoaktree_2_forgen_1::1000
+    - gmc_newoaktree_1::1000
+    - gmc_newoaktree_3::1000
     - gmc_newbigoaktree_1::1000
     - gmc_newbigoaktree_2::1000
     - gmc_newbigoaktree_3::1000
@@ -1619,7 +1633,7 @@ death-land:
     - minecraft:white_terracotta;75
 swampland-hills:
   overlay:
-    chance: 2
+    chance: 1
     blocks:
     - minecraft:blue_orchid;6
     - minecraft:grass;120
@@ -1627,22 +1641,22 @@ swampland-hills:
     - minecraft:red_mushroom;14
     - minecraft:fern;60
     - minecraft:tall_grass[half=lower];40
-    - minecraft:dark_oak_leaves[distance=7,persistent=true];415
+    - minecraft:dark_oak_leaves[distance=7,persistent=true];615
   entities:
     chance:
       random: 0.0
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
       random: 1.0E7
       min: 0.0
-      max: 280000.0
+      max: 290000.0
       weight: 1.0
-    structures:
+    list:
     - gmc_waterforswamp_8::6
     - gmc_waterforswamp_2_3::2
   trees:
@@ -1651,7 +1665,7 @@ swampland-hills:
       min: 0.0
       max: 17500.0
       weight: 1.0
-    trees:
+    list:
     - SWAMP_TREE_3::4000
     - SWAMP_TREE_2::4000
     - SWAMP_TREE_4::4000
@@ -1725,7 +1739,7 @@ cold-beach:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -1733,7 +1747,7 @@ cold-beach:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -1741,7 +1755,7 @@ cold-beach:
       min: 0.0
       max: 55000.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -1816,7 +1830,7 @@ taiga:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -1824,7 +1838,7 @@ taiga:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -1832,7 +1846,7 @@ taiga:
       min: 0.0
       max: 210.0
       weight: 1.0
-    trees:
+    list:
     - gmc_newspruce_1::5000
     - gmc_newspruce_2::5000
     - gmc_newspruce_3::5000
@@ -1904,7 +1918,7 @@ deep-frozen-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -1912,7 +1926,7 @@ deep-frozen-ocean:
       min: 0.0
       max: 14000.0
       weight: 1.0
-    structures:
+    list:
     - UNDERWATER_TEMPLE_1::20
     - gmc_ice::20000
     - gmc_ice_0::20000
@@ -1939,7 +1953,7 @@ deep-frozen-ocean:
       min: 0.0
       max: 5.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -2016,7 +2030,7 @@ taiga-hills:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2024,7 +2038,7 @@ taiga-hills:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -2032,7 +2046,7 @@ taiga-hills:
       min: 0.0
       max: 210.0
       weight: 1.0
-    trees:
+    list:
     - gmc_newspruce_1::5000
     - gmc_newspruce_2::5000
     - gmc_newspruce_3::5000
@@ -2102,7 +2116,7 @@ taiga-mountains:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2110,7 +2124,7 @@ taiga-mountains:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -2118,7 +2132,7 @@ taiga-mountains:
       min: 0.0
       max: 210.0
       weight: 1.0
-    trees:
+    list:
     - gmc_newspruce_1::5000
     - gmc_newspruce_2::5000
     - gmc_newspruce_3::5000
@@ -2179,7 +2193,7 @@ desert-hills:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2187,7 +2201,7 @@ desert-hills:
       min: 0.0
       max: 9000.0
       weight: 1.0
-    structures:
+    list:
     - gmc_DESERT_TEMPLE_1_0::20
     - gmc_DESERT_TEMPLE_2::5
     - DESERT_RESERVOIR::60
@@ -2205,7 +2219,7 @@ desert-hills:
       min: 0.0
       max: 80000.0
       weight: 1.0
-    trees:
+    list:
     - gmc_cactus_3::22000
     - gmc_cactus_2::24000
     - gmc_cactus_1::22000
@@ -2275,7 +2289,7 @@ deep-warm-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2283,7 +2297,7 @@ deep-warm-ocean:
       min: 0.0
       max: 80.0
       weight: 1.0
-    structures:
+    list:
     - UNDERWATER_TEMPLE_1::8
   trees:
     chance:
@@ -2291,7 +2305,7 @@ deep-warm-ocean:
       min: 0.0
       max: 90000.0
       weight: 1.0
-    trees:
+    list:
     - CORAL_RED_2::8000
     - CORAL_RED_3::8000
     - CORAL_RED_0::8000
@@ -2378,7 +2392,7 @@ extreme-mountains:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2386,7 +2400,7 @@ extreme-mountains:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -2394,7 +2408,7 @@ extreme-mountains:
       min: 0.0
       max: 26660.0
       weight: 1.0
-    trees:
+    list:
     - gmc_newhillsdarkoak_1::4000
     - gmc_newhillsdarkoak_2::4000
     - gmc_newhillsdarkoak_3::4000
@@ -2452,7 +2466,7 @@ ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2460,7 +2474,7 @@ ocean:
       min: 0.0
       max: 156.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -2468,7 +2482,7 @@ ocean:
       min: 0.0
       max: 6000.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -2529,15 +2543,15 @@ dark-oak-forest-hills:
     blocks:
     - minecraft:grass;80
     - minecraft:fern;20
-    - minecraft:brown_mushroom;2
-    - minecraft:red_mushroom;2
+    - minecraft:large_fern;400
+    - minecraft:oak_leaves[distance=7,persistent=true];30
   entities:
     chance:
       random: 16.0
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2545,24 +2559,43 @@ dark-oak-forest-hills:
       min: 0.0
       max: 6.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
       random: 10000.0
       min: 0.0
-      max: 120.0
+      max: 1100.0
       weight: 1.0
-    trees:
-    - gmc_dark_oak::4000
-    - gmc_dark_oak_0::4000
-    - gmc_dark_oak_1::4000
-    - gmc_dark_oak_2::4000
-    - gmc_dark_oak_3::4000
-    - gmc_dark_oak_4::4000
-    - OAK_TREE_4::4000
-    - OAK_TREE_2::4000
-    - OAK_TREE_1::4000
+    list:
+    - gmc_fl_1::500
+    - gmc_fl_2::500
+    - gmc_fl_3_1::500
+    - gmc_fl_4::500
+    - gmc_fl_5::500
+    - gmc_fl_6::500
+    - gmc_flowers_1::10
+    - gmc_flowers_2::10
+    - gmc_flowers_3::10
+    - gmc_flowers_4::10
+    - gmc_flowers_5_1::1
+    - gmc_flowers_6::1
+    - gmc_flowers_7_1::1
+    - gmc_flowers_8::1
+    - gmc_flowers_9_1::1
+    - gmc_flowers_10_1::1
+    - gmc_flowers_11::1
+    - gmc_flowers_12_1::20
+    - gmc_flowers_14_2::20
+    - gmc_flowers_15_1::20
+    - gmc_flowers_16_1::20
+    - gmc_flowers_17::20
+    - gmc_stone_n_7::1
+    - gmc_stone_n_5::1
+    - gmc_stone_n_4::1
+    - gmc_stone_n_3::1
+    - gmc_stone_n_2::1
+    - gmc_stone_n_1::1
   water:
     top-layer:
       blocks: [
@@ -2575,8 +2608,10 @@ dark-oak-forest-hills:
     '0': [
       ]
     '1':
-    - minecraft:coarse_dirt;15
-    - minecraft:podzol[snowy=false];50
+    - minecraft:cyan_terracotta;20
+    - minecraft:gray_terracotta;20
+    - minecraft:brown_terracotta;20
+    - minecraft:green_terracotta;20
     - minecraft:grass_block[snowy=false];120
     '2':
     - minecraft:stone;30
@@ -2617,7 +2652,7 @@ bamboo-jungle:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2625,7 +2660,7 @@ bamboo-jungle:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures:
+    list:
     - gmc_JUNGLE_TEMPLE_1::20
     - gmc_JUNGLE_TEMPLE_2_2::20
   trees:
@@ -2634,7 +2669,7 @@ bamboo-jungle:
       min: 0.0
       max: 400.0
       weight: 1.0
-    trees:
+    list:
     - gmc_jungle_v2::4076
     - gmc_jungle_1_v2::4076
     - gmc_jungle_2_v2::4076
@@ -2715,7 +2750,7 @@ jungle-hills:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2723,7 +2758,7 @@ jungle-hills:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures:
+    list:
     - gmc_JUNGLE_TEMPLE_1::20
     - gmc_JUNGLE_TEMPLE_2_2::20
   trees:
@@ -2732,7 +2767,7 @@ jungle-hills:
       min: 0.0
       max: 400.0
       weight: 1.0
-    trees:
+    list:
     - gmc_jungle_v2::4076
     - gmc_jungle_1_v2::4076
     - gmc_jungle_2_v2::4076
@@ -2794,26 +2829,26 @@ jungle-hills:
     - minecraft:granite;25
 forest-hills:
   overlay:
-    chance: 4
+    chance: 3
     blocks:
-    - minecraft:beetroots[age=3];1
-    - minecraft:potatoes[age=7];1
-    - minecraft:carrots[age=7];1
-    - minecraft:poppy;1000
-    - minecraft:dandelion;500
-    - minecraft:grass;8500
-    - minecraft:fern;5500
-    - minecraft:oak_leaves[distance=7,persistent=true];1800
-    - minecraft:oxeye_daisy;500
-    - minecraft:azure_bluet;500
-    - minecraft:cornflower;200
+    - minecraft:beetroots[age=3];2
+    - minecraft:potatoes[age=7];2
+    - minecraft:carrots[age=7];2
+    - minecraft:poppy;100
+    - minecraft:dandelion;50
+    - minecraft:grass;850
+    - minecraft:fern;550
+    - minecraft:oak_leaves[distance=7,persistent=true];1200
+    - minecraft:oxeye_daisy;50
+    - minecraft:azure_bluet;50
+    - minecraft:cornflower;30
   entities:
     chance:
       random: 0.0
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2821,7 +2856,7 @@ forest-hills:
       min: 0.0
       max: 50.0
       weight: 1.0
-    structures:
+    list:
     - gmc_st_newbuild1::1
     - gmc_st_newbuild2::1
     - gmc_st_newbuild3::1
@@ -2831,7 +2866,7 @@ forest-hills:
       min: 0.0
       max: 80.0
       weight: 1.0
-    trees:
+    list:
     - gmc_newdarkoak_1::4
     - gmc_newdarkoak_2::4
     - gmc_newdarkoak_3_1::4
@@ -2896,7 +2931,7 @@ beach:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -2904,7 +2939,7 @@ beach:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -2912,7 +2947,7 @@ beach:
       min: 0.0
       max: 5.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -3015,7 +3050,7 @@ lukewarm-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -3023,7 +3058,7 @@ lukewarm-ocean:
       min: 0.0
       max: 156.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -3031,7 +3066,7 @@ lukewarm-ocean:
       min: 0.0
       max: 55000.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -3104,7 +3139,7 @@ jungle:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -3112,7 +3147,7 @@ jungle:
       min: 0.0
       max: 20.0
       weight: 1.0
-    structures:
+    list:
     - gmc_JUNGLE_TEMPLE_1::20
     - gmc_JUNGLE_TEMPLE_2_2::20
   trees:
@@ -3121,7 +3156,7 @@ jungle:
       min: 0.0
       max: 400.0
       weight: 1.0
-    trees:
+    list:
     - gmc_jungle_v2::4076
     - gmc_jungle_1_v2::4076
     - gmc_jungle_2_v2::4076
@@ -3192,7 +3227,7 @@ desert:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -3200,7 +3235,7 @@ desert:
       min: 0.0
       max: 9000.0
       weight: 1.0
-    structures:
+    list:
     - gmc_DESERT_TEMPLE_1_0::20
     - gmc_DESERT_TEMPLE_2::5
     - DESERT_RESERVOIR::60
@@ -3218,7 +3253,7 @@ desert:
       min: 0.0
       max: 80000.0
       weight: 1.0
-    trees:
+    list:
     - gmc_cactus_3::22000
     - gmc_cactus_2::24000
     - gmc_cactus_1::22000
@@ -3277,7 +3312,7 @@ frozen-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -3285,7 +3320,7 @@ frozen-ocean:
       min: 0.0
       max: 156.0
       weight: 1.0
-    structures: [
+    list: [
       ]
   trees:
     chance:
@@ -3293,7 +3328,7 @@ frozen-ocean:
       min: 0.0
       max: 55000.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
@@ -3368,7 +3403,7 @@ jungle-mountains:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -3376,7 +3411,7 @@ jungle-mountains:
       min: 0.0
       max: 600.0
       weight: 1.0
-    structures:
+    list:
     - gmc_JUNGLE_TEMPLE_1::20
     - gmc_JUNGLE_TEMPLE_2_2::20
   trees:
@@ -3385,7 +3420,7 @@ jungle-mountains:
       min: 0.0
       max: 400.0
       weight: 1.0
-    trees:
+    list:
     - gmc_jungle_v2::4076
     - gmc_jungle_1_v2::4076
     - gmc_jungle_2_v2::4076
@@ -3478,7 +3513,7 @@ deep-lukewarm-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -3486,7 +3521,7 @@ deep-lukewarm-ocean:
       min: 0.0
       max: 80.0
       weight: 1.0
-    structures:
+    list:
     - UNDERWATER_TEMPLE_1::8
   trees:
     chance:
@@ -3494,7 +3529,7 @@ deep-lukewarm-ocean:
       min: 0.0
       max: 90000.0
       weight: 1.0
-    trees:
+    list:
     - CORAL_RED_2::8000
     - CORAL_RED_3::8000
     - CORAL_RED_0::8000
@@ -3590,7 +3625,7 @@ deep-cold-ocean:
       min: 0.0
       max: 1.0
       weight: 1.0
-    entities: [
+    list: [
       ]
   structures:
     chance:
@@ -3598,7 +3633,7 @@ deep-cold-ocean:
       min: 0.0
       max: 80.0
       weight: 1.0
-    structures:
+    list:
     - UNDERWATER_TEMPLE_1::8
   trees:
     chance:
@@ -3606,7 +3641,7 @@ deep-cold-ocean:
       min: 0.0
       max: 55000.0
       weight: 1.0
-    trees: [
+    list: [
       ]
   water:
     top-layer:
