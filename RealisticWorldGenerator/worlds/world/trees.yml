@@ -45,10 +45,9 @@ species:
   BigTree:
     weight: 1.0
     trees:
-    - BIG_OAK_TREE_1::1.0
-    - BIG_OAK_TREE_2::1.0
-    - BIG_OAK_TREE_3::1.0
-    - BIG_OAK_TREE_4::1.0
+    - gmc_newbigoaktree_3
+    - gmc_newbigoaktree_2
+    - gmc_newbigoaktree_1
   Swamp:
     weight: 1.0
     trees: [
@@ -83,9 +82,9 @@ species:
   Jungle:
     weight: 1.0
     trees:
-    - gmc_jungle_a_v2::4076
-    - gmc_jungle_a_0_v2::3076
-    - gmc_jungle_a_1_v2:3076
+    - gmc_jungle_a_v2
+    - gmc_jungle_a_0_v2
+    - gmc_jungle_a_1_v2
     - gmc_jungle_v2
     - gmc_jungle_1_v2
     - gmc_jungle_2_v2
@@ -101,9 +100,6 @@ species:
     - gmc_newoaktree_1
     - gmc_newoaktree_2
     - gmc_newoaktree_3
-    - gmc_newbigoaktree_3
-    - gmc_newbigoaktree_2
-    - gmc_newbigoaktree_1
   CocoaTree:
     weight: 1.0
     trees: [
