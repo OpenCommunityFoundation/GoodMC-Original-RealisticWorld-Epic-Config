@@ -28,8 +28,8 @@
 |  |  |
 | ------ | ------ |
 | Game version | 1.16.5 |
-| RWG version | 4.26.0  |
-| Configuration version | 2.7 FREE ALPHA UNSTABLE |
+| RWG version | 4.25.15  |
+| Configuration version | 2.7 FREE ALPHA |
 | Server | 4+GB RAM, 4+ cores |
 | World settings | "large biomes" parameter |
 |Server core| Spigot|
