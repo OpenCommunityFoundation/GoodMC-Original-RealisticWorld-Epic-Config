@@ -972,19 +972,18 @@ dark-oak-forest:
     - gmc_flowers_2::10
     - gmc_flowers_3::10
     - gmc_flowers_4::10
-    - gmc_flowers_5_1::1
-    - gmc_flowers_6::1
-    - gmc_flowers_7_1::1
-    - gmc_flowers_8::1
-    - gmc_flowers_9_1::1
-    - gmc_flowers_10_1::1
-    - gmc_flowers_11::1
+    - gmc_flowers_5_1::2
+    - gmc_flowers_6::2
+    - gmc_flowers_7_1::2
+    - gmc_flowers_8::2
+    - gmc_flowers_9_1::2
+    - gmc_flowers_10_1::2
+    - gmc_flowers_11::2
     - gmc_flowers_12_1::20
     - gmc_flowers_14_2::20
     - gmc_flowers_15_1::20
     - gmc_flowers_16_1::20
     - gmc_flowers_17::20
-    - gmc_stone_n_7::1
     - gmc_stone_n_5::1
     - gmc_stone_n_4::1
     - gmc_stone_n_3::1
@@ -2578,19 +2577,18 @@ dark-oak-forest-hills:
     - gmc_flowers_2::10
     - gmc_flowers_3::10
     - gmc_flowers_4::10
-    - gmc_flowers_5_1::1
-    - gmc_flowers_6::1
-    - gmc_flowers_7_1::1
-    - gmc_flowers_8::1
-    - gmc_flowers_9_1::1
-    - gmc_flowers_10_1::1
-    - gmc_flowers_11::1
+    - gmc_flowers_5_1::2
+    - gmc_flowers_6::2
+    - gmc_flowers_7_1::2
+    - gmc_flowers_8::2
+    - gmc_flowers_9_1::2
+    - gmc_flowers_10_1::2
+    - gmc_flowers_11::2
     - gmc_flowers_12_1::20
     - gmc_flowers_14_2::20
     - gmc_flowers_15_1::20
     - gmc_flowers_16_1::20
     - gmc_flowers_17::20
-    - gmc_stone_n_7::1
     - gmc_stone_n_5::1
     - gmc_stone_n_4::1
     - gmc_stone_n_3::1
