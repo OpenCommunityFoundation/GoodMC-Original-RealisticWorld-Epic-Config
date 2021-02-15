@@ -28,7 +28,7 @@
 |  |  |
 | ------ | ------ |
 | Game version | 1.16.5 |
-| RWG version | 4.26.0  |
+| RWG version | 4.26.1  |
 | Configuration version | 2.7 FREE ALPHA UNSTABLE |
 | Server | 4+GB RAM, 4+ cores |
 | World settings | "large biomes" parameter |
