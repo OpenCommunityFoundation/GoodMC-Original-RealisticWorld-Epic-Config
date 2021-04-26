@@ -4,15 +4,15 @@
 
 # English
 
- This configuration is developed on GoodMC.ru
- GoodMC is a non-commercial game server project.
+ This configuration is developed on OpenCommunity Original / GoodMC
+ OpenCommunity Original / GoodMC is a non-commercial game server project.
 
  Have a nice game!
 
 #  Русский
 
- Эта конфигурация принадлежит GoodMC.ru
- GoodMC - некоммерческий проект игровых серверов.
+ Эта конфигурация принадлежит OpenCommunity Original / GoodMC
+ OpenCommunity Original / GoodMC - некоммерческий проект игровых серверов.
 
  Приятной игры!
 
