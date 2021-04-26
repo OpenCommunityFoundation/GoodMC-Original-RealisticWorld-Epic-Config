@@ -5,6 +5,7 @@
 # English
 
  This configuration is developed on OpenCommunity Original / GoodMC
+ 
  OpenCommunity Original / GoodMC is a non-commercial game server project.
 
  Have a nice game!
@@ -12,6 +13,7 @@
 #  Русский
 
  Эта конфигурация принадлежит OpenCommunity Original / GoodMC
+ 
  OpenCommunity Original / GoodMC - некоммерческий проект игровых серверов.
 
  Приятной игры!
